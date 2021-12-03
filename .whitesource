@@ -14,6 +14,6 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "transitiveRemediation": false
+    "transitiveRemediation": true
   }
 }
