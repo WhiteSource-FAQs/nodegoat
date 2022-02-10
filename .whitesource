@@ -1,15 +1,21 @@
 {
   "scanSettings": {
-    "configMode": "LOCAL",
+    "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": []
   },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
+  "commitStatusSettings": {
+    "vulnerableCommitStatus": "FAILED",
     "displayMode": "diff"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "LOW",
+    "openConfidentialIssues": true
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
   }
 }
